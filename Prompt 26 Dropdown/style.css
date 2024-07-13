@@ -4,3 +4,94 @@
     box-sizing: border-box;
 }
 
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1720659201108-4efe526b289c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    object-fit: cover;
+    background-position: center;
+}
+main nav{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main nav button{
+    border: none;
+    background: none;
+    font-size: large;
+    font-weight: 600;
+}
+nav .productDiv{
+    position: absolute;
+    background-color: aquamarine;
+    top: 50px;
+    left: 200px;
+
+    width: 300px;
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    transition: 1s;
+}
+nav .productDiv div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+nav .solutuonDiv{
+    position: absolute;
+    background-color: aquamarine;
+    top: 50px;
+    left: 600px;
+
+    width: 300px;
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    transition: 1s;
+}
+nav .solutuonDiv div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+nav .resourcesDiv{
+    position: absolute;
+    background-color: aquamarine;
+    top: 50px;
+    left: 1000px;
+
+    width: 300px;
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    transition: 1s;
+}
+nav .resourcesDiv div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
