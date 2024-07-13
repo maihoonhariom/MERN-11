@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.jpg?w=740&t=st=1720782834~exp=1720783434~hmac=b848fb6c1b530f84ec928d87a3d05c2e94d836f4080de2c63932fe238a9c46da);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+.heading{
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading>h1{
+    width: 19%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.time{
+    background-color: #0a1433;
+    display: flex;
+    width: 14%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 4px;
+    transform: translateX(660px);
+    border-radius: 10px;
+}
+.time>button{   
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.time>button:first-child{
+    background-color: #1c4d9a;
+    color: aliceblue;
+}
+.time>button:last-child{
+    background: none;
+    color: #f0f8ffc1;
+    border: none;
+}
+
+.plans{
+    width: 100%;
+    height: 73%;
+    
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan1{
+    height: 80%;
+    width: 18%;
+    background-color: #080d27;
+    border-radius: 20px 0px 0px 20px;
+}
+.plan1>div{
+    width: 100%;
+    height: 50%;
+
+    
+}
+.plan1>div:first-child{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.plan1>div:first-child>button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #2ef2ff;
+    background-color: transparent;
+    color: #2ef2ff;
+    margin: 20px;
+}
+.plan1>div:first-child>h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin: 10px;
+}
+.plan1>div:first-child sup{
+    font-size: 15px;
+}
+.plan1>div:first-child>p{
+    color: aliceblue;
+}
+.pera>button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 8px;
+    
+    transform: translateX(20%);
+    background-color: #213170;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.pera{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+
+.plan2{
+    height: 90%;
+    width: 18%;
+    background-color: #080d27;
+    border-radius: 20px;
+}
+.plan2>div{
+    width: 100%;
+    height: 50%;
+
+    
+}
+.plan2>div:first-child{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.plan2>div:first-child>button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #c8ea80;
+    background-color: transparent;
+    color: #c8ea80;
+    margin: 20px;
+}
+.plan2>div:first-child>h1{
+    font-size: 50px;
+    color: #c8ea80;
+    margin: 10px;
+}
+.plan2>div:first-child sup{
+    font-size: 15px;
+    color: aliceblue;18  
+}
+.plan2>div:first-child>p{
+    color: aliceblue;
+}
+.pera>button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 8px;
+    
+    transform: translateX(20%);
+    background-color: #213170;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+.plan3{
+    height: 80%;
+    width: 18%;
+    background-color: #080d27;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.plan3>div{
+    width: 100%;
+    height: 50%;
+
+    
+}
+.plan3>div:first-child{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.plan3>div:first-child>button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #2ef2ff;
+    background-color: transparent;
+    color: #2ef2ff;
+    margin: 20px;
+}
+.plan3>div:first-child>h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin: 10px;
+}
+.plan3>div:first-child sup{
+    font-size: 15px;
+}
+.plan3>div:first-child>p{
+    color: aliceblue;
+}
+.pera>button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 8px;
+    
+    transform: translateX(20%);
+    background-color: #213170;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 10px;
+}

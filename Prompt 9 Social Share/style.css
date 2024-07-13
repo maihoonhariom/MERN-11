@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://w0.peakpx.com/wallpaper/693/85/HD-wallpaper-anime-weathering-with-you-hina-amano-hodaka-morishima.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+
+    
+}
+.share{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    background-color: black;
+
+    border-radius: 30px;
+    color: aliceblue;
+    overflow: hidden;
+    font-family: sans-serif;
+
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+}
+.share>.nav{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(62, 65, 67);
+}
+
+.share>.nav>i{
+    margin-left: 10%;
+    margin-right: 22%;
+
+}
+
+.share>.frame{
+    width: 80%;
+    height: 40%;
+    padding: 10%;
+}
+
+.share>.frame>div{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+
+    padding: 10%;
+
+
+    
+}
+
+.share>.frame>div>div{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(https://w0.peakpx.com/wallpaper/150/727/HD-wallpaper-anime-weathering-with-you-hina-amano.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 200px  250px;
+}
+
+.share .method{
+    height: 40%;
+    width: 100%;
+
+    background-color: rgb(62, 65, 67);
+    box-shadow: 5px 10px 20px black;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    justify-content: center;
+    gap: 10%;
+    
+    
+}
+.share .method>div{
+   margin: 10px; 
+}
+
+.share .method img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.share .method p{
+    font-size: 10px;
+    width: 40px;
+    text-align: center;
+    
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.348);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+nav>div{
+    display: flex;
+    gap: 50px;
+}
+nav img{
+    width: 100px;
+}
+nav button{
+    background: none;
+    border: none;
+    font-weight: 900;
+}
+nav>button{
+    
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 0px 10px;
+    height: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main>div>h1{
+    font-family: sans-serif;
+    font-size: 51px;
+}
+main>div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main>div:first-child>div{
+    display: flex;
+    font-size: 80px;
+    font-family: sans-serif;
+    gap: 30px;
+}
+main>div:first-child>div>h1{
+    border: 5px solid brown;
+    border-bottom: 15px solid brown;
+    padding: 20px;
+}
+
+main>div:first-child>div>h1:nth-child(3){
+    border: none;
+}
+main>div:first-child>div:last-child{
+    display: flex;
+    gap: 20%;
+}
+main>div:first-child>div>p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 40%;
+    text-align: center;
+
+}
+
+main>div:last-child>img{
+    
+}

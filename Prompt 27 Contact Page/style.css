@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    font-family: sans-serif;
+}
+
+main>div{
+    height: 100%;
+    width: 50%;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+}
+.left>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.left>div:nth-child(2)>p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left i{
+    color: #1bbc9b;
+    font-size: 30px;
+}
+.left h1{
+    color: #1bbc9b;
+}
+.left>div:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right{
+    background-color: #1bbc9b;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+}
+.right h1{
+    color: aliceblue;
+
+}
+.right>div{
+    position: relative;
+}
+.right input{
+    width: 550px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 4px solid aliceblue;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.right textarea{
+    width: 550px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 4px solid aliceblue;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.right label{
+    position: absolute;
+    left: 40px;
+    top: -15px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #1bbc9b;
+}
+
+.right button{
+    width: 100px;
+    position: relative;
+    left: 50px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+
+}

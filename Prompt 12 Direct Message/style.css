@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    width: 20%;
+    height: 100%;
+}
+.sidebar>.search{
+    display: flex;
+    width: 20%;
+    height: 15%;
+    
+    color: aliceblue;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+    position: fixed;
+    
+    
+}
+
+
+
+.sidebar>.search>div:first-child{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sidebar>.search>div:first-child>div{
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar>.search>div:last-child{
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+}
+
+.sidebar>.search>div:last-child>i{
+    position: absolute;
+    z-index: 10;
+    
+
+    margin-left: 5px;
+}
+
+.sidebar>.search>div:last-child>input{
+    position: absolute;
+    padding: 5px 25px;
+    width: 100%;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 2px solid #9f9f9f;
+    color: #d3d3d3;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.sidebar>.search>div:last-child>input:focus,textarea:focus{
+    background-color: #1e1c1c;
+    border-bottom: 2px solid #1daa61;
+
+}
+.chats{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    transform: translateY(16%);
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #2c2c2c;
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+.chats>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.chats>div>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.chats>div>div>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.chats h1{
+    font-size: 15px;
+}
+.chats p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #c6c3c3;
+}
+.chats img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    
+    padding-left: 20%;
+    
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+    background-color: #2c2c2c;
+    color: aliceblue;
+    padding: 10px;
+    
+}
+
+.nav>div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav>div:first-child>h1{
+    font-size: 20px;
+}
+.nav>div:last-child{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    height: 82%;
+    
+    gap: 40px;
+    position: relative;
+    
+    padding: 10px;
+    overflow-y: scroll;
+    margin-bottom: 5px;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #2c2c2c;
+}
+.message::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/illustration-anime-character-rain_23-2151394671.jpg?t=st=1719678606~exp=1719682206~hmac=81a9272f2bebbf8cd10707f0a40e5f75eaf2f025a890ec392795f62c1636cdc2&w=826);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: 0; /* Position it behind the content */
+  }
+.message>#left{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+}
+.message>#left>p{
+    position: absolute;
+    z-index: 10;
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color: #2ec44fc4;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 0px 10px 10px 10px;
+    
+}
+.message>#right{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+}
+.message>#right>p{
+    position: absolute;
+    z-index: 10;
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color: #2ec44fc4;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.text{
+    width: 80%;
+    height: 8%;
+    background-color: #2c2c2c;
+    position: fixed;
+    
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.text>input{
+    width: 90%;
+    padding: 10px;
+    background-color: #2c2c2c;
+    color: aliceblue;
+    outline: none;
+    border: none;
+
+}

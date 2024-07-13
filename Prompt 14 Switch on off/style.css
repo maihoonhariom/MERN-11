@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/030/668/229/small/gray-background-high-quality-free-photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main>input{
+    display: none;
+}
+
+main>label{
+    width: 30%;
+    height: 30%;
+    
+    background: black;
+    border-radius: 100px;
+}
+
+main>label::before{
+    content: "";
+    position: absolute;
+    transform: translate(10%, 10%);
+    width: 12%;
+    height: 25%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/98/13/93/360_F_298139354_B8MchbDhUhOuAfcewRxZ9AUOKV9vsWAt.jpg);
+    border-radius: 100px;
+    background-color: white;
+    transition: 0.50s;
+}
+
+main>input:checked + label{
+    background-color: rgb(9, 113, 164);
+    
+    transition: 0.50s;
+}
+
+main>input:checked +label::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    background-image: url(https://live-production.wcms.abc-cdn.net.au/b0d688db39ca3c8d460bbe750704565a?impolicy=wcms_crop_resize&cropH=576&cropW=1023&xPos=0&yPos=0&width=862&height=485);
+    transition: 0.50s;
+    transform: translate(140%, 10%);
+}
