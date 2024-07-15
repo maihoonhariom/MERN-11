@@ -91,6 +91,37 @@ var data = [
     }
 ]
 
-var main = document.querySelector("main", data.forEach(element => {
-    
-}))
+var main = document.querySelector("main");
+
+data.forEach((element ,index)=> {
+    main.innerHTML = `<div class="card">
+            <div class="id">
+                <h4>Id:</h4>
+                <p>${data[index].id}</p>
+            </div>
+            <div class="name">
+                <h4>Name:</h4>
+                <p>${data[index].name}</p>
+            </div>
+            <div class="username">
+                <h4>UserName:</h4>
+                <p>${data[index].username}</p>
+            </div>
+            <div class="email">
+                <h4>Email:</h4>
+                <p>${data[index].email}</p>
+            </div>
+            <div class="profile">
+                <h4>Profile Picture:</h4>
+                <img src= "${data[index].profilePicture}" alt="">
+            </div>
+            <div class="bio">
+                <h4>Bio:</h4>
+                <p>${data[index].bio}</p>
+            </div>
+            <div class="location">
+                <h4>Location:</h4>
+                <p>${data[index].location}</p>
+            </div>
+        </div>`
+});
