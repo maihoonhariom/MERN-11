@@ -168,9 +168,6 @@ main{
 .react i{
     cursor: pointer;
 }
-.react i:first-child{
-    
-}
 .react p{
     font-size: 15px;
     padding: 3px;

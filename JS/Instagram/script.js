@@ -61,6 +61,11 @@ var post =[
         profile: "https://media.gettyimages.com/id/112134837/photo/thor-germany-photocall.jpg?s=1024x1024&w=gi&k=20&c=v7buYE9KlAlbjKqed_Nrad_iz-xDdPjPkgbFA1WBlmE=", 
         username: "thor",
         media: "https://wallpapers.com/images/hd/kneeling-thor-mjolnir-hammer-x5eo2mbinpuad1id.webp"
+    },
+    {
+        profile: "https://w0.peakpx.com/wallpaper/223/397/HD-wallpaper-captain-america-avengers-endgame-captain-america-marvel-marvel-comics-marvel-superheroes-superheroes.jpg", 
+        username: "captain",
+        media: "https://media.istockphoto.com/id/458467163/photo/the-first-avenger-movie-poster.webp?s=2048x2048&w=is&k=20&c=2dWMkyspyx7c_AnWLwewBcitYKZeVpJ0GHbTIHRjHL4="
     }
     
 ]
