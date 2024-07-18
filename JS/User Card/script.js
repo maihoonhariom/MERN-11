@@ -92,9 +92,9 @@ var data = [
 ]
 
 var main = document.querySelector("main");
-
+var clutter = ""
 data.forEach((element ,index)=> {
-    main.innerHTML = `<div class="card">
+    clutter += `<div class="card">
             <div class="id">
                 <h4>Id:</h4>
                 <p>${data[index].id}</p>
@@ -125,3 +125,5 @@ data.forEach((element ,index)=> {
             </div>
         </div>`
 });
+
+main.innerHTML =clutter;

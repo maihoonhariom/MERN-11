@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    background-color: rgb(255, 154, 21);
+    height: 100%;
+    width: 100%;
+    
+    overflow: hidden;
+
+}
+main video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+main button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+}
